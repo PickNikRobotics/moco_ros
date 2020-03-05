@@ -33,7 +33,7 @@
   <joint name="end_effector_to_tcp_joint" type="fixed">
     <parent link="link_L6" />
     <child link = "tcp" />
-    <origin xyz="0 0 0.2" rpy="0 ${-pi/2} 0" />
+    <origin xyz="0 0 0.34" rpy="0 ${-pi/2} 0" />
   </joint>
 
   <link name="tcp" />
